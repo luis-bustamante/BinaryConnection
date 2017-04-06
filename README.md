@@ -1,6 +1,12 @@
 # BinaryConnection
 WSO2 data-bridge BinaryDataReceiver SSL and TCP Transport tester
 
+# Release
+Download compiled java binary from https://github.com/luisguillo/BinaryConnection/releases
+
+# Compile
+Download/clone project, install gradle, and use 'gradle jar' to compile.
+
 # Usage
 $ java -jar BinaryConnection-1.0.jar --help  
 usage: Main  
@@ -9,9 +15,10 @@ usage: Main
  -k,--keyword <arg>     Optional. User password. ex: -k admin  
  -p,--port <arg>        Optional. Port number. ex: -p 9711  
  -t,--transport <arg>   Required. Binary Transport: -t TCP|SSL  
- -u,--username <arg>    Optional. Username. ex: -u admin  
+ -u,--username <arg>    Optional. Username. ex: -u admin    
 
 # Examples
+
 1) Connect to BinaryDataReceiver Binary SSL Transport on port 9711:  
 
 $ java -jar BinaryConnection-1.0.jar -t SSL -h localhost -u admin -k admin -p 9711  
