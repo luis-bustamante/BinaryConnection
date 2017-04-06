@@ -1,5 +1,6 @@
 package bustamante.luis.binary;
 
+import javax.net.ssl.*;
 import java.io.IOException;
 import java.net.SocketException;
 import java.net.UnknownHostException;
